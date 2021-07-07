@@ -1,7 +1,7 @@
 .Form-Field {
     border: none;
-    background: rgba(158, 158, 158, 0.25);
-    color: #e47a33;
+    background-color: rgba(255, 255, 255, 0.863);
+    color: #000000;
     margin-top: 1rem;
     padding: 1rem;
     font-size: 1.2rem;
@@ -20,6 +20,11 @@
 }
 
 .Form-Error {
+    color: #ff8080;
+}
+
+.Login-Error{
+    margin-top: 300px;
     color: #ff8080;
 }
 
