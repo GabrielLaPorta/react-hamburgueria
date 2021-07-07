@@ -1,9 +1,10 @@
 import React from 'react'
 import { Router, Switch, Route } from 'react-router'
-import Home from '../pages/home'
-import Login from '../pages/login'
-import Register from '../pages/register'
+import Home from '../pages/home/home'
+import Login from '../pages/login/login'
+import Register from '../pages/register/register'
 import { history } from '../history'
+import NotFount from './not-found'
 
 const Routes = () => (
     <Router history={history}>
@@ -11,6 +12,7 @@ const Routes = () => (
             <Route component={Login} exact path="/login" />
             <Route component={Register} exact path="/register" />
             <Route component={Home} exact path="/" />
+            <Route component={NotFount} />
         </Switch>
     </Router>
 )
